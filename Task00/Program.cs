@@ -7,7 +7,8 @@
 // -3 -> 9
 // -7 -> 49
 
-Console.Write.Line("Введите целое число ");
+Console.WriteLine("Введите целое число ");
+// string str = Console.ReadLine(); // 3453454
 int number = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
 
